@@ -104,3 +104,27 @@ e. Determine which folder in my-stuff was created most recently by using ls.  (t
 f. Remove that folder.
 g. Show all of the commands that you used to complete the above exercise.  (for example, how did you determine which folder in my-stuff was the most recent?).  Use the command: history ... to help you remember what you did!  Paste the commands below.
 ----------
+
+
+Cindys-Air:~ EdwinS$ cd Desktop/
+Cindys-Air:Desktop EdwinS$ mkdir my-stuff
+Cindys-Air:Desktop EdwinS$ pwd ~
+/Users/EdwinS/Desktop
+Cindys-Air:Desktop EdwinS$ cd my-stuff
+Cindys-Air:my-stuff EdwinS$ mkdir EdwinS
+Cindys-Air:my-stuff EdwinS$ ls
+EdwinS
+Cindys-Air:my-stuff EdwinS$ cd ..
+Cindys-Air:Desktop EdwinS$ ls
+my-stuff
+Cindys-Air:Desktop EdwinS$ rmdir EdwinS
+rmdir: EdwinS: No such file or directory
+Cindys-Air:Desktop EdwinS$ ls
+my-stuff
+Cindys-Air:Desktop EdwinS$ cd my-stuff
+Cindys-Air:my-stuff EdwinS$ ls
+EdwinS
+Cindys-Air:my-stuff EdwinS$ rmdir EdwinS
+Cindys-Air:my-stuff EdwinS$ 
+
+
